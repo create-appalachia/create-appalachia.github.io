@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Brotherhood Script';
+    src: url('font/Brotherhood Script/ttf');
+}
+
+h1 {
+    font-family: 'Brotherhood Script';
+    text-align: center;
+    font-size: 170pt;
+    font-weight: normal;
+    margin-top: .5em;
+}
+
+a {
+    text-decoration: none;
+    color: #1F1F4D;
+    transition: text-shadow 0.3s ease;
+}
+
+a:hover {
+    text-shadow:
+      -3px -3px 0 #F5EF98,
+       3px -3px 0 #F5EF98,
+      -3px  3px 0 #F5EF98,
+       3px  3px 0 #F5EF98;
+}
+
+.icons {
+    text-align: center;
+}
+
+.icons a {
+    display: block;
+    min-width: 5em;
+    min-height: 5em;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icons li {
+    display: inline-block;
+    border: 2px solid;
+    padding: .25em;
+    border-radius: 10px;
+    transition: border-style 0.3s ease;
+    margin-right: .5em;
+}
+
+.icons li:hover {
+    border-style: dashed;
+    background-color: #F5EF98;
+}
+
+.icons #facebook a {
+    background-image: url('image/logo/Facebook/letter/svg');
+}
+
+.icons #bitcoin a {
+    background-image: url('image/logo/bitcoin/svg');
+}
+
+.icons #bitcoin a {
+    background-image: url('image/logo/bitcoin/svg');
+}
