@@ -51,14 +51,18 @@ a:hover {
     background-color: #F5EF98;
 }
 
-.icons #facebook a {
+.icons [title='Facebook'] a {
     background-image: url('image/logo/Facebook/letter/svg.svg');
 }
 
-.icons #bitcoin a {
+.icons [title='Bitcoin'] a {
     background-image: url('image/logo/bitcoin/svg.svg');
 }
 
-.icons #bitcoin a {
-    background-image: url('image/logo/bitcoin/svg');
+.icons [title='GitHub'] a {
+    background-image: url('image/logo/GitHub/svg.svg');
+}
+
+.icons [title='E-Mail'] a {
+    background-image: url('image/logo/mail/svg.svg');
 }
