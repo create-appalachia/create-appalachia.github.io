@@ -52,11 +52,11 @@ a:hover {
 }
 
 .icons #facebook a {
-    background-image: url('image/logo/Facebook/letter/svg');
+    background-image: url('image/logo/Facebook/letter/svg.svg');
 }
 
 .icons #bitcoin a {
-    background-image: url('image/logo/bitcoin/svg');
+    background-image: url('image/logo/bitcoin/svg.svg');
 }
 
 .icons #bitcoin a {
